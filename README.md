@@ -1,7 +1,6 @@
 # DOT-cypress
 Testes automatizados de validação de formulário com Cypress, cobrindo cenários de validação de campos obrigatórios, formato de dados e envio com sucesso.
 
-
 # Testes Automatizados para Formulário de Solicitação de Informações do Curso de Pediatria
 
 ## 📖 História do Usuário
@@ -21,7 +20,17 @@ Como usuário interessado no curso de Pediatria, desejo preencher o formulário 
    - **Nome Completo:** Campo obrigatório.
    - **Email:** Campo obrigatório, com validação de formato (ex.: `usuario@dominio.com`).
    - **Telefone:** Campo obrigatório (com máscara para número válido).
-   - **Mensagem/Observação:** Opcional, com limite de 500 caracteres.
+   - **Sua área de atuação:** Campo obrigatório, com opções pré-definidas:
+     - Não sou médico(a)
+     - Clínico Geral
+     - Psiquiatria
+     - Cardiologista
+     - Ortopedista
+     - Cirurgião
+     - Médico (Outros)
+     - Estudante
+     - Pediatria
+     - Endoscopia
 
 3. **Feedback Visual:**
    - Mensagens de erro devem ser exibidas ao lado ou abaixo dos campos obrigatórios que estão vazios ou com dados inválidos.
@@ -55,10 +64,11 @@ Como usuário interessado no curso de Pediatria, desejo preencher o formulário 
    - **Resultado Esperado:** O formulário exibe um erro pedindo que uma área seja selecionada.
 
 5. **Envio de formulário válido**  
-   - **Cenário:** O usuário preenche todos os campos corretamente.  
+   - **Cenário:** O usuário preenche todos os campos corretamente, incluindo a área de atuação.  
    - **Resultado Esperado:** O formulário é enviado com sucesso e uma mensagem de confirmação é exibida.
 
 ---
+
 
 ## ⏱️ Estimativa de Tempo de Teste
 
@@ -76,9 +86,8 @@ Como usuário interessado no curso de Pediatria, desejo preencher o formulário 
 ## 🛠️ Ferramentas Utilizadas
 
 - **Cypress** para desenvolvimento de testes automatizados.
-- **JavaScript** para implementação de casos de testes.
 - **Visual Studio Code (VS Code)** como IDE para desenvolvimento.
-
+- **JavaScript** para implementação dos casos de testes.
 
 ---
 
@@ -86,4 +95,5 @@ Como usuário interessado no curso de Pediatria, desejo preencher o formulário 
 
 1. Clone este repositório:
    ```bash
-   git clone <(https://github.com/rogeriolopes8/DOT-cypress/)>
+   git clone <https://github.com/rogeriolopes8/DOT-cypress>
+
