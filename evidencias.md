@@ -3,7 +3,7 @@
 ## **1. Configuração do Ambiente**
 Abaixo está a evidência da configuração do ambiente de testes e execução do Cypress.
 
-![Configuração do Ambiente](./path/to/image1.png)
+![Configuração do Ambiente](![Image](https://github.com/user-attachments/assets/37073483-2bc9-48c7-9b12-7ad30db5e32e))
 
 ---
 
