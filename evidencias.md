@@ -3,14 +3,14 @@
 ## **1. Configuração do Ambiente**
 Abaixo está a evidência da configuração do ambiente de testes e execução do Cypress.
 
-![Configuração do Ambiente](![Image](https://res.cloudinary.com/djz94w6bi/image/upload/v1738586564/wiil1yd26lmtuywrt0jb.png)
+[Image](https://res.cloudinary.com/djz94w6bi/image/upload/v1738586564/wiil1yd26lmtuywrt0jb.png)
 
 ---
 
 ## **2. Escolha do Navegador**
 Evidência da tela de escolha do navegador no Cypress:
 
-![Escolha do Navegador](./path/to/image2.png)
+[![Escolha do Navegador](./path/to/image2.png)](https://res.cloudinary.com/djz94w6bi/image/upload/v1738586561/mpw0r5xty6kptf3boqef.png)
 
 ---
 
