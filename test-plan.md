@@ -46,33 +46,4 @@ Como um usuário do site **Way2Automation**, quero preencher e enviar um formul�
 
 ---
 
-## 4. Estimativa de Tempo para Testes  
 
-### **Cálculo do Tempo de Teste**  
-
-**Fatores Considerados:**  
-1. **Configuração do ambiente:** Acesso ao site e preparação inicial (~5 minutos).  
-2. **Execução de cada teste manualmente:**  
-   - Testes básicos (~2 a 5 minutos por teste).  
-   - Testes que envolvem validação de erro (~3 a 7 minutos cada).  
-   - Testes repetitivos, como cliques múltiplos (~3 minutos).  
-3. **Registro dos resultados e geração de relatórios (~10 minutos).**  
-
-| Tipo de Teste | Número de Casos | Tempo Estimado por Caso | Tempo Total |
-|--------------|---------------|----------------------|------------|
-| Testes de preenchimento válido | 2 | 3 min | 6 min |
-| Testes de validação de erro | 4 | 5 min | 20 min |
-| Testes de usabilidade e UX | 2 | 3 min | 6 min |
-| Configuração do ambiente | - | 5 min | 5 min |
-| Registro dos resultados | - | 10 min | 10 min |
-| **Total Estimado** | **8** | - | **47 min** |
-
-O tempo total estimado para a execução manual completa dos testes é **aproximadamente 47 minutos**.  
-
----
-
-## 5. Conclusão  
-
-Este plano de testes cobre as validações essenciais do formulário, garantindo que a experiência do usuário seja fluida e sem erros. Os testes contemplam tanto cenários positivos (preenchimento válido) quanto negativos (erros e usabilidade), garantindo a confiabilidade da funcionalidade.  
-
----
