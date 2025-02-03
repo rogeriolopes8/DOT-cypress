@@ -10,7 +10,7 @@ Abaixo está a evidência da configuração do ambiente de testes e execução d
 ## **2. Escolha do Navegador**
 Evidência da tela de escolha do navegador no Cypress:
 
-[![Escolha do Navegador](./path/to/image2.png)](https://res.cloudinary.com/djz94w6bi/image/upload/v1738586561/mpw0r5xty6kptf3boqef.png)
+[![Escolha do Navegador]((https://res.cloudinary.com/djz94w6bi/image/upload/v1738586561/mpw0r5xty6kptf3boqef.png)
 
 ---
 
